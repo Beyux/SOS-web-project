@@ -1,0 +1,1108 @@
+
+* {
+    box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-family: "cairo", "open Sans", "Roboto", "sans-serif";
+    }
+    
+    header {
+        background-image: url(images/DSC_5007\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        background-size: cover;   
+        
+    }
+    .wrapper .navbar {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px 50px;
+        
+    }
+    
+    .logo {
+        display: flex;
+        gap: 15px;
+    }
+    .logo h2 {
+        margin-top: 10px;
+    }
+    .navbar-links ul {
+        display: flex;
+    }
+    .navbar-links ul li {
+        
+        list-style: none;
+        margin-right: 30px; 
+                
+    }
+    
+    .navbar-links ul li a{
+        text-decoration: none;
+        color: white; 
+        padding: .5rem;  
+    }
+    
+    .navbar-links ul li a:hover {
+        color: #458A5D;
+    }
+    .toggle-button {
+        position: absolute;
+        top: 1.75rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+      }
+      .toggle-button .bar {
+          width: 100%;
+          height: 3px;
+          background-color:#458A5D;
+          border-radius: 10px;
+      }
+      
+    .telephone {
+        display: flex;
+        
+        
+    }
+    .telephone img {
+        width: 20px;
+        height: 3vh;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+    .telephone p {
+        border: 1px solid black;
+        padding: 0 15px;
+        
+        text-wrap: nowrap;
+    }
+    .telephone p::before {
+        content: url(images/phone-call\ \(1\)\ 1.png);
+        margin-right: 10px;
+        
+        
+    }
+    header {
+        height: 100%;
+    }
+    
+    
+    
+    .intro {
+        width: 33%;
+        margin: auto;
+        text-align: center;
+        padding: 60px 0;
+        align-self: center;
+        justify-self: center;
+        margin-top: 30px;
+    }
+    .intro h1 {
+        margin-top: 10px;
+        
+    }
+    .intro a {
+        border: 1px solid white;
+        padding: 8px 25px;
+    }
+    .intro p {
+        margin-bottom: 40px;
+    }
+    .intro a::before {
+        content: url(images/play-button\ \(2\)\ 1.png);
+        position: relative;
+        right: 5px;
+        top: 5px;
+    }
+    
+
+    .principal-container {
+        width: 85%;
+        margin: 50px auto;
+        display: flex;
+        gap: 50px;
+    }
+
+    .speech .messi {
+        color: #458A5D;
+    }
+    .mummy .box {
+        width: 275px;
+        height: 290px;
+        background-color: #458A5D;
+        border-radius: 6px;
+        margin-top: 80px;
+       position: relative;
+    }
+
+    .mummy img {
+        width: 275px;
+        height: 290px;
+        border-radius: 6px;       
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+    }
+    .mummy .mane {
+       margin-left: 30px;
+    }
+
+    .choose-container {
+        background-color: #458A5D;
+        color: #ffffff;
+        padding: 60px 0;
+
+    }
+    .choose-container .why-us {
+        width: 40%;
+        margin: 20px auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .choose-us {
+        width: 85%;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 50px;
+        column-gap: 30px;
+        padding: 50px 0;
+    }
+    .choose-us .mat, .mat1 {
+        padding: 50px 20px;
+        border: 1px solid #1C6335;
+        border-radius: 6px;
+    }
+    .mat1 {
+        background-color: #1C6335;
+    }
+
+    .statement-container{
+        color: black;
+        padding: 40px 0;
+    }
+     .statement-all {
+        display: flex;
+        justify-items: space-between;
+        width: 80%;
+        margin: 100px auto;
+        gap: 150px;
+        
+    }
+    
+    
+    .vission {
+        margin-bottom: 50px;
+    }
+    .mission {
+        margin-top: 50px;
+    }
+    .statement-all .pic-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        width: 50%;
+        grid-auto-columns: auto;
+        
+    }
+    .pic-gallery .chem{
+        grid-row: 1/3;
+        grid-column-end: 3;
+        justify-self: center;
+        align-self: center;
+    }
+    .pic-gallery .atom{
+        justify-self: end;
+        align-self: end;
+    }
+    
+    .statement-all .pic-gallery img {
+        width: 100%;
+    }
+    .statement-all .pic-gallery .atom{
+        justify-self: end;
+        align-self: end;
+    }
+    .statement {
+        width: 60%;
+    }
+    
+    main {
+        
+        background-image: url(images/DSC_5007\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        background-size: cover;
+        margin: 50px auto;
+    }
+    .backky-black {
+        background-color: rgba(26, 25, 25, 0.76);
+        padding: 100px 50px;
+    }
+    .history-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+        width: 100%;
+        position: relative;
+        
+    }
+    .history-container  .ruler {
+        position: absolute;
+        left: 50%;
+        height: 1000px;
+        top: 8%;
+    }
+    .mob1 img, .mob2 img {
+        width: 100%;
+    }
+    .mob1, .mob2 {
+        width: 100%;
+        padding: 25px 20px;
+    }
+    .mob2 {
+        justify-self: end;
+        align-self: end;
+    }
+    .location-container {
+        
+        width: 80%;
+        margin: 80px auto;
+        
+    }
+    .location-container h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .location img {
+        width: 100%;
+        
+    }
+    .location {
+        position: relative;
+        margin-bottom: 120px;
+    }
+    .location-container .addy {
+        position: absolute;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 20px 30px;
+        white-space: nowrap;
+        left: 10%;
+        top: 85%;
+        border-radius: 6px;
+    }
+    .addy .mation {
+        display: flex;
+        gap: 12px;
+    }
+    .mation img {
+        width: 46px;
+        height: 46px;
+        justify-self: center;
+        align-self: center;
+    }
+    .mation p {
+        justify-self: center;
+        align-self: center;
+    }
+    
+
+    .get-info {
+        display: flex;
+        gap: 220px;
+        width: 90%;
+        margin-left: 10%;
+        padding: 20px 20px;
+        background-color: #458A5D;
+        color: #ffffff;
+    }
+    .enter {
+        margin-left: 80px;
+    }
+    
+    
+    .little-container {
+        width: 100%;
+        background-color:#1C6335;    
+        margin-top: 70px;
+    }
+    .mail {
+        margin-top: 50px;
+    }
+    .mail form input {
+        width: 240px;
+        padding: 10px 10px;
+        background-color: #458A5D;
+        border: 1px solid white;
+        border-radius: 4px;
+        outline: none;
+        color: #ffffff;
+           
+    }
+    .mail form input::placeholder{
+        color: #ffffffad;
+        opacity: 9;
+    }
+    .mail form button {
+        position: relative;
+        left: -10px;
+        padding: 11px 25px;
+        color: #458A5D; 
+        border: none;
+        border-radius: 5px;
+        
+    }
+    
+    footer {
+        background-color: #0C0E18;
+        color:#ffffff;
+    
+    }
+    .bottom-container{
+        width: 85%;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    
+    footer .flogo {
+        display: flex;
+        gap: 20px;
+        margin: 40px 0;
+    }
+    footer .recog {
+        display: flex;
+        justify-content: space-between;
+    }
+    .follow .social img {
+        margin-right:25px;
+    }
+    .fwardy {
+        width: 55%;
+    }
+    .address {
+        display: flex;
+        gap: 50px;
+        line-height: 1.5;
+    }
+    .below {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .bar ul li {
+        display: inline;
+        margin: 0 15px;
+        
+    }
+    .bar ul li a {
+        list-style: none;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .bar ul li a:hover {
+        color: #458A5D;
+    }
+
+    .made span {
+        color: red;
+    }
+    hr {
+        border-width: 0.5px;
+        border-color: #ffffff36;
+    }
+
+
+    /* responsiveness */
+
+    @media screen and (max-width: 1150px) {
+        .wrapper .navbar ul li {
+            
+            margin-right: 20px;     
+                 
+        }
+        
+        .wrapper .navbar ul li a{
+               
+            font-size: 13px;
+        }
+        .telephone p {
+            border: 1px solid black;
+            padding: 0 20px;
+            font-size: 13px;
+        }
+
+
+        .mation {
+            font-size: 13px;
+        }
+
+        .mation img {
+         width: 40px;
+        height: 40px;
+        justify-self: center;
+        align-self: center;
+    
+        }
+
+
+
+
+
+
+         
+        .enter h2 {
+            font-size: 18px;
+            
+        }
+        
+        .enter {
+            margin-left: 80px;
+        }
+        
+        .get-info {
+            width: 90%;
+            margin-left: 10%;
+        }
+        .little-container {
+            width: 100%;
+            background-color:#1C6335;    
+            margin-top: 70px;
+        }
+        .mail {
+            margin-top: 30px;
+        }
+        .mail form input {
+            width: 200px;
+            padding: 10px 10px;
+            background-color: #458A5D;
+            border: 1px solid white;
+            border-radius: 4px;
+            outline: none;
+            color: #ffffff;
+               
+        }
+        .mail form input::placeholder{
+            color: #ffffffad;
+            opacity: 9;
+        }
+        .mail form button {
+            position: relative;
+            left: -12px;
+            padding: 11px 22px;
+            color: #458A5D; 
+            border: none;
+            border-radius: 5px;   
+            
+        } 
+        footer .recog {
+            display: flex;
+            justify-content: space-between;
+        }
+        .follow .social img {
+            margin-right:25px;
+            text-wrap: nowrap;
+        }
+        
+        .address {
+            display: flex;
+            gap: 50px;
+            line-height: 1.5;
+        }
+        .follow .social {
+            white-space: nowrap;
+            margin: 0 20px;
+        }
+        .below {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+        }
+        
+        .bar ul li {
+            display: inline;
+            margin: 0 15px;
+            
+        }
+        .bar ul li a {
+            list-style: none;
+            text-decoration: none;
+            color: #ffffff; 
+        } 
+        
+    }   
+    
+    @media screen and (max-width: 1015px) {
+    
+        .mail form button {     
+            margin-top: 15px;
+            margin-left: 50px;
+            padding: 10px 20px;
+            color: #458A5D; 
+            border: none;
+            border-radius: 5px;
+            justify-self: center;  
+            font-size: 12px; 
+            
+        }   
+    
+        .bar ul li {
+            display: inline;
+            margin: 0 10px;       
+        }
+    
+        .about-container ul li {
+    
+            font-size: 13px;   
+        }
+        .mail {
+            margin-top: 15px;
+        }
+        .mation {
+            font-size: 12px;
+        }
+
+        .mation img {
+         width: 37px;
+        height: 37px;
+        justify-self: center;
+        align-self: center;
+    
+        }
+        .statement-all {
+            
+            gap: 125px;
+        }
+    }
+    
+
+    @media screen and (max-width: 930px) {
+        .wrapper .navbar ul li { 
+            margin-right: 15px;     
+                 
+        }
+        
+        .wrapper .navbar ul li a{    
+            font-size: 12px;
+        }
+        .telephone p {
+            font-size: 12px;
+        }
+
+
+
+    
+    .mail form button {
+        font-size: 10px;
+    }
+    .contact {
+        font-size: 13px;
+    
+    
+    }
+    }   
+    
+
+    @media screen and (max-width: 932px) {
+        .below {
+            
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 13px;
+            letter-spacing: 2px;
+        }
+        
+        .bar ul li {
+            display: inline;
+            margin: 0 20px;
+    
+            
+        }
+        .mation {
+            font-size: 12px;
+        }
+
+        .mation img {
+         width: 35px;
+        height: 35px;
+        justify-self: center;
+        align-self: center;
+    
+        }
+       
+    }
+    
+       
+       
+
+
+
+    @media screen and (max-width: 865px) {
+        .wrapper .navbar ul li { 
+            margin-right: 10px;     
+                 
+        }
+        
+        .wrapper .navbar ul li a{    
+            font-size: 10px;
+        }
+        .telephone p {
+            font-size: 10px;
+        }
+
+        .intro h1 {
+            font-size: 25px;
+        }
+
+        .intro p {
+            font-size: 13px;
+        }
+        .intro a {
+            font-size: 13px;
+        }
+        .speech h1 {
+            font-size: 25px;
+        }
+        .speech p {
+            font-size: 13px;
+        }
+        .mane p{
+            font-size: 13px;
+        }
+        .choose-container {
+            font-size: 13px;
+        }
+        .statement-all {
+            font-size: 13px;
+            gap: 100px;
+        }
+        .history-container {
+            font-size: 13px;
+        }
+        .mation {
+            font-size: 11px;
+        }
+
+        .mation img {
+         width: 25px;
+        height: 25px;
+        justify-self: center;
+        align-self: center;
+    
+        }
+
+
+
+        .mail form button {
+            font-size: 10px;
+        }
+        .get-info {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            width: 90%;
+            margin-left: 10%;
+            padding: 0;
+            background-color: #458A5D;
+            color: #ffffff;
+        }
+        .mail {
+            margin-top: 10px;
+            
+        }
+        .enter h2 {
+            width: 40%;
+            text-align: center;
+            margin-left: 20%;
+        
+        }
+        .mail {
+            margin: 40px auto;
+            width: 40%;
+            justify-self: center;
+        }
+        .contact {
+            font-size: 12px;
+        }
+        .telephone img {
+            
+            margin-left: 25px;
+        }
+    }
+       
+
+
+
+    @media screen and (max-width: 765px) {
+        .toggle-button {
+            display: flex;
+    }
+    .navbar-links {
+        display: none; 
+        width: 100%;   
+        
+    }
+    .wrapper .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        
+        
+    }  
+    .wrapper .navbar-links ul {
+        flex-direction: column;
+        width:100%;
+        
+        
+    }
+    .wrapper .navbar .navbar-links li {
+        text-align: center;
+        padding: 8px 0;
+    }
+    .wrapper .navbar .navbar-links li:hover{
+        padding: 4px;
+        border-radius: 2px;
+        
+        
+    
+    }
+    .wrapper .navbar .navbar-links li a{
+        font-size: 12px;
+        
+    }
+    .navbar-links.active{
+        display: flex;
+    
+        
+    }
+    
+    .telephone p {
+        display: none;
+    }
+    .choose-us {
+        grid-template-columns: 1fr 1fr;
+    }
+    .intro  {
+        width: 50%;
+    }
+    .speech h1 {
+        font-size: 18px;
+    
+    }
+    .speech {
+        font-size: 12px;
+    }
+
+    .statement h2 {
+        font-size: 16px;
+    }
+    .choose-container {
+        font-size: 12px;
+    }
+    .choose-us {        
+        row-gap: 20px;
+        column-gap: 20px;
+        padding: 50px 0;
+    }
+    .choose-container .why-us {
+        width: 60%;
+    }
+    
+    .choose-us .mat, .mat1 {
+        padding: 30px 20px;
+       
+    }
+    .mat1 h3 {
+        font-size: 14px;
+    }
+    .statement-all {
+        font-size: 11px;
+        gap: 30px;
+    }
+    .history-container {
+        font-size: 12px;
+    }
+    .history-container h1 {
+        font-size: 17px;
+    }
+
+    .history-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        width: 100%;
+        position: relative;
+        
+    }
+    .mation {
+        font-size: 10px;
+        justify-self: center;
+        align-self: center;
+    }
+    .mation img {
+        width: 20px;
+        height: 20px;
+    }
+    .addy {
+        flex-direction: column;
+        
+    }
+    .location-container {
+        
+        width: 80%;
+        margin: 80px auto 160px auto;
+        
+    }
+
+
+
+
+    .get-info {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 90%;
+        margin-left: 10%;
+        padding: 0;
+        background-color: #458A5D;
+        color: #ffffff;
+    }
+    .mail {
+        margin-top: 10px;
+        
+    }
+    .enter h2 {
+        width: 40%;
+        text-align: center;
+        margin-left: 20%;
+        
+    
+    }
+    .follow .social img {
+        margin-right:15px;
+    }
+    .address {
+        display: flex;
+        gap: 30px;
+        line-height: 1.5;
+    }
+    .below {
+            
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+    
+    .bar ul li {
+        display: inline;
+        margin: 0 15px;
+    
+        
+    }
+    
+}
+
+
+
+@media screen and (max-width: 605px) {
+    .toggle-button {
+        display: flex;
+}
+.navbar-links {
+    display: none; 
+    width: 100%;   
+    
+}
+.wrapper .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}  
+.wrapper .navbar-links ul {
+    flex-direction: column;
+    width:100%;
+    
+    
+}
+.wrapper .navbar .navbar-links li {
+    text-align: center;
+    padding: 8px 0;
+}
+.wrapper .navbar .navbar-links li:hover{
+    padding: 4px;
+    border-radius: 2px;
+    
+    
+
+}
+.wrapper .navbar .navbar-links li a{
+    font-size: 12px;
+    
+}
+.navbar-links.active{
+    display: flex;
+
+    
+}
+
+.telephone p{
+    display: none;
+}
+.principal-container {
+    flex-direction: column-reverse;
+}
+.intro h1 {
+    font-size: 20px;
+}
+.intro a {
+    font-size: 10px;
+    padding: 6px 10px;
+}
+.mummy {
+    justify-self: center;
+    align-self: center;
+}
+.statement-all {
+    flex-direction: column-reverse;
+}
+.statement {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.pic-gallery {
+    justify-self: center;
+    align-self: center;
+}
+.history-container {
+    grid-template-columns: 1fr;
+}
+.ruler {
+    display: none;
+}
+.mob2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.location-container h2 {
+    font-size: 18px;
+}
+
+
+
+.get-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 90%;
+    margin-left: 10%;
+    padding: 0;
+    background-color: #458A5D;
+    color: #ffffff;
+}
+.mail {
+    margin-top: 10px;
+    
+    
+}
+.enter h2 {
+    width: 70%;
+    text-align: center;
+    margin-left: 0;
+    justify-self: center; 
+    align-self: center; 
+
+}
+.follow .social img {
+    margin-right: 15px;
+}
+}
+
+
+
+@media screen and (max-width: 570px) {
+    .flogo {
+       
+        justify-self: center;
+        align-self: center;
+    }
+    .contact {
+        text-align: center;
+    }
+    .fwardy {
+        justify-self: center;
+        align-self: center;
+    }
+    .recog {
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        
+    }
+    .get-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 90%;
+    margin-left: 10%;
+    padding: 0;
+    background-color: #458A5D;
+    color: #ffffff;
+}
+.mail {
+    margin-top: 10px;
+    
+    
+}
+.enter h2 {
+    width: 70%;
+    text-align: center;
+    margin-left: 0;
+    justify-self: center; 
+    align-self: center; 
+
+}
+.follow .social img {
+    margin-right: 15px;
+}
+
+    
+    .address {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        line-height: 1.5;
+    }
+    .below {
+            
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+    
+    .bar ul li {
+        display: inline;
+        margin: 0 5px;
+    
+        
+    }
+}
