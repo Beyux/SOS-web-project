@@ -126,6 +126,7 @@
         text-align: center;
         width: 74%;
         margin: auto;
+        font-size: 14px;
     }
     .six {
         grid-column: 6/7;
@@ -559,7 +560,10 @@
         display: none;
     }
     
-    
+    .five {
+        font-size: 12px;
+        width: 80%;
+    }
     
 
 
@@ -593,8 +597,7 @@
         gap: 30px;
         line-height: 1.5;
     }
-    .below {
-            
+    .below {    
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -608,7 +611,10 @@
     
         
     }
-    
+    #content img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
@@ -688,7 +694,9 @@
 }
 }
 
-
+.five {
+    font-size: 11px;
+}
 
 @media screen and (max-width: 570px) {
     .flogo {
@@ -710,7 +718,9 @@
         
     }
 
-    
+    .five {
+        font-size: 10px;
+    }
     .get-info {
     display: flex;
     flex-direction: column;
