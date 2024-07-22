@@ -312,7 +312,7 @@
     @media screen and (max-width: 1150px) {
         .wrapper .navbar ul li {
             
-            margin-right: 20px;     
+            margin-right: 10px;     
                  
         }
         
@@ -322,7 +322,7 @@
         }
         .telephone p {
             border: 1px solid black;
-            padding: 0 20px;
+            padding: 0 15px;
             font-size: 13px;
         }
 
@@ -498,7 +498,7 @@
 
     @media screen and (max-width: 930px) {
         .wrapper .navbar ul li { 
-            margin-right: 15px;     
+            margin-right: 8px;     
                  
         }
         
@@ -584,7 +584,7 @@
 
     @media screen and (max-width: 865px) {
         .wrapper .navbar ul li { 
-            margin-right: 10px;     
+            margin-right: 5px;     
                  
         }
         

@@ -260,8 +260,9 @@
     .history-container  .ruler {
         position: absolute;
         left: 50%;
-        height: 1000px;
+        height: 85%;
         top: 8%;
+        
     }
     .mob1 img, .mob2 img {
         width: 100%;
@@ -458,12 +459,6 @@
     
         }
 
-
-
-
-
-
-         
         .enter h2 {
             font-size: 18px;
             
@@ -616,7 +611,7 @@
     }   
     
 
-    @media screen and (max-width: 932px) {
+    @media screen and (max-width: 940px) {
         .below {
             
             display: flex;

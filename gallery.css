@@ -279,7 +279,7 @@
     @media screen and (max-width: 1150px) {
         .wrapper .navbar ul li {
             
-            margin-right: 20px;     
+            margin-right: 10px;     
                  
         }
         
@@ -289,17 +289,9 @@
         }
         .telephone p {
             border: 1px solid black;
-            padding: 0 20px;
+            padding: 0 15px;
             font-size: 13px;
         }
-
-
-        
-
-
-        
-
-
          
         .enter h2 {
             font-size: 18px;
@@ -413,7 +405,7 @@
 
     @media screen and (max-width: 930px) {
         .wrapper .navbar ul li { 
-            margin-right: 15px;     
+            margin-right: 8px;     
                  
         }
         
@@ -436,7 +428,7 @@
 }  
     
 
-    @media screen and (max-width: 932px) {
+    @media screen and (max-width: 940px) {
         .below {
             
             display: flex;
@@ -460,7 +452,7 @@
 
     @media screen and (max-width: 865px) {
         .wrapper .navbar ul li { 
-            margin-right: 10px;     
+            margin-right: 5px;     
                  
         }
         
@@ -611,6 +603,14 @@
     
         
     }
+    #content {
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: minmax(120px, auto);
+        grid-gap: 10px;
+        display: grid;
+        max-width: 80%;
+        margin: 50px auto
+    }
     #content img {
         width: 100%;
         height: 100%;
@@ -664,7 +664,14 @@
 .telephone p{
     display: none;
 }
-
+#content {
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 6px;
+    display: grid;
+    max-width: 80%;
+    margin: 50px auto
+}
 
 .get-info {
     display: flex;
@@ -715,6 +722,74 @@
         text-align: center;
         flex-direction: column;
         margin-bottom: 20px;
+        
+    }
+    #content {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .one {
+        width: 100%;
+        text-align: center;
+    }
+    .two {
+        width: 100%;
+        text-align: center;
+    }
+    .three {
+        width: 100%;
+        text-align: center;
+    }
+    .four {
+        width: 100%;
+        text-align: center;
+    }
+    .five {
+        width: 70%;
+        text-align: center;
+    }
+    .six {
+        width: 100%;
+        text-align: center;
+    }
+    .seven {
+        width: 100%;
+        text-align: center;
+    }
+    .eight {
+        width: 100%;
+        text-align: center;
+    }
+    .nine {
+        width: 100%;
+        text-align: center;
+    }
+    .ten {
+        width: 100%;
+        text-align: center;
+    }
+    .eleven {
+        width: 100%;
+        text-align: center;
+    }
+    .twelve {
+        width: 100%;
+        text-align: center;
+    }
+    .thirteen {
+        width: 100%;
+        text-align: center;
+    }
+    .fourteen {
+        width: 100%;
+        text-align: center;
+    }
+
+    #content img {
+        width: 70%;
+        height: 70%;
+        
         
     }
 
